@@ -1,0 +1,4 @@
+timezone local
+timezone logger
+timezone "UTC"
+quit

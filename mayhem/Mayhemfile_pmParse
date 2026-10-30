@@ -1,0 +1,10 @@
+project: savantenvs/pcp
+target: pmparse
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/pmparse/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_pmParse
+    libfuzzer: true

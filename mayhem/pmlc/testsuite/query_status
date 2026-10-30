@@ -1,0 +1,6 @@
+query { kernel.all.load [ "1 minute" ] }
+status
+new volume
+sync
+disconnect
+quit
