@@ -1,0 +1,4 @@
+log mandatory maybe once { sample.long.one }
+log mandatory on once { pmcd.agent.status }
+log advisory on default { hinv }
+quit

@@ -1,0 +1,8 @@
+#define D 30
+root {
+	foo
+}
+foo {
+	bar	D:0:1
+	baz	D:0:2
+}

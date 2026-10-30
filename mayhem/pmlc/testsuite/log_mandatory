@@ -1,0 +1,3 @@
+log mandatory on every 5 seconds { kernel.all.load [ "1 minute", "5 minute" ] }
+log advisory off { disk.dev.read }
+quit

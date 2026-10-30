@@ -1,0 +1,10 @@
+project: savantenvs/pcp
+target: pmns
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/pmns/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_pmns
+    libfuzzer: true

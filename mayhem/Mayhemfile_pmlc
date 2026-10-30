@@ -1,0 +1,9 @@
+project: savantenvs/pcp
+target: pmlc
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/pmlc/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/out/pmlc
